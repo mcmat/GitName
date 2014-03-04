@@ -14,7 +14,11 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		addStudent(nathan);
 		
 		//Add yourself below here, Do not delete other Users
-		
+		Student max = new Student("Max Mattoon", "mmattoon0966@westfield.ma.edu", "mcmat");
+		nathan.canNotMeet(Day.TUESDAY);//Choose only the days you cannot meet
+		nathan.canNotMeet(Day.THURSDAY);
+		nathan.preferTimeToMeet(Time.EITHER); // Choose Day/Night/Either
+		addStudent(max);
 	
 		
 		
